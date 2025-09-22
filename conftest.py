@@ -42,7 +42,7 @@ def register_user(page, generate_unique_name, generate_unique_email):
 
     Args:
         page: The Playwright page object for interacting with the browser.
-        generate_unique_name: A function to generate a unique user name.
+        generate_unique_name: A function to generate a unique username.
         generate_unique_email: A function to generate a unique email address.
 
     Returns:
